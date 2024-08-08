@@ -41,18 +41,106 @@
             </div>
           </div>
     </header>
-    <main class="my-[20px] w-4/5 mx-auto lg:px-0 px-2">
+    <main class="my-16 lg:w-4/5 mx-auto lg:px-0 px-2">
          <!-- our product section here -->
-          <section class="flex">
-            <div class="flex-1 border-2 border-purple-700">
+          <section class="flex gap-5 flex-col-reverse md:flex-row">
+            <div class="flex-1 relative">
                <img src="./images/banner-1.jpg" alt="">
-               <div class="grid gap-2 mt-2 grid-cols-2">
-                  <img src="./images/banner-2.jpg" alt="">
-                  <img src="./images/biscuits (1).webp" alt="">
+               <div class="absolute lg:hidden text-5xl font-bold top-0 text-[#0000fff2]"><h1>JSS</h1></div>
+               <div class="grid gap-2  mt-2 grid-cols-2">
+                  <div class="relative">
+                     <img class="our-img" src="./images/banner-2.jpg" alt="">
+                     <button class="bg-[#0000fff2] px-5 py-1  text-gray-300 opacity-99 font-medium absolute top-0 right-">Love</button>
+                  </div>
+                  <div class="relative">
+                     <img class="our-img" src="./images/biscuits (1).webp" alt="">
+                     <button class="bg-[#0000fff2] px-5 py-1  text-gray-300 opacity-99 font-medium absolute bottom-0">Love</button>
+                  </div>
                </div>
             </div>
-            <div class="flex-1"></div>
+            <div class="flex-1 space-y-3">
+               <h1 class="text-5xl font-bold">Our best biscuit Great taste</h1>
+               <p class="text-[14px] text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo eius similique commodi dolor ratione necessitatibus vitae iusto, ipsa quos eligendi atque ea cum voluptatum accusamus excepturi, quis, saepe cupiditate ipsam corrupti! Ipsam illo perferendis, libero excepturi tempore nemo incidunt itaque culpa nulla ipsum, aut, dicta placeat dolorem possimus est modi.</p>
+               <button class="bg-[#0000fff2] font-medium rounded-lg px-12 py-3 text-white">Shop Now</button>
+            </div>
           </section>
+          <!-- out best product  -->
+           <section class="my-16">
+            <div class="text-center">
+               <h1 class="text-4xl font-bold">Amader sera product pethe Order koron aji</h1>
+               <p class="text-[14px] text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, et.</p>
+            </div>
+            <!-- this is card parent div -->
+             <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10">
+               <!-- card 1 -->
+                <div class="card bg-base-100  shadow-xl">
+                  <figure>
+                    <img
+                      src="./images/biscuits (6).webp"
+                      alt="Shoes" />
+                  </figure>
+                  <div class=" px-2 pt-5 pb-5">
+                    <h2 class="card-title">
+                      <div class="badge badge-secondary">NEW</div>
+                      <p class="text-gray-600">Product</p>
+                    </h2>
+                    <p class="text-[14px] text-gray-500 my-2">Our products are not adulterated. Undoubtedly you can take it.</p>
+                    <div>
+                     <button class="w-full font-bold py-3 text-gray-300 rounded-full bg-[#0000fff2]">Order Now</button>
+                    </div>
+                    <div class="card-actions justify-end mt-3">
+                      <div class="badge badge-outline ">Fashion</div>
+                      <div class="badge badge-outline">Products</div>
+                    </div>
+                  </div>
+                </div> 
+               <!-- card 3 -->
+                <div class="card bg-base-100  shadow-xl">
+                  <figure>
+                    <img
+                      src="./images/biscuits (6).webp"
+                      alt="Shoes" />
+                  </figure>
+                  <div class=" px-2 pt-5 pb-5">
+                    <h2 class="card-title">
+                      <div class="badge badge-secondary">NEW</div>
+                      <p class="text-gray-600">Product</p>
+                    </h2>
+                    <p class="text-[14px] text-gray-500 my-2">Our products are not adulterated. Undoubtedly you can take it.</p>
+                    <div>
+                     <button class="w-full font-bold py-3 text-gray-300 rounded-full bg-[#0000fff2]">Order Now</button>
+                    </div>
+                    <div class="card-actions justify-end mt-3">
+                      <div class="badge badge-outline ">Fashion</div>
+                      <div class="badge badge-outline">Products</div>
+                    </div>
+                  </div>
+                </div> 
+               <!-- card 3 -->
+                <div class="card bg-base-100  shadow-xl">
+                  <figure>
+                    <img
+                      src="./images/biscuits (6).webp"
+                      alt="Shoes" />
+                  </figure>
+                  <div class=" px-2 pt-5 pb-5">
+                    <h2 class="card-title">
+                      <div class="badge badge-secondary">NEW</div>
+                      <p class="text-gray-600">Product</p>
+                    </h2>
+                    <p class="text-[14px] text-gray-500 my-2">Our products are not adulterated. Undoubtedly you can take it.</p>
+                    <div>
+                     <button class="w-full font-bold py-3 text-gray-300 rounded-full bg-[#0000fff2]">Order Now</button>
+                    </div>
+                    <div class="card-actions justify-end mt-3">
+                      <div class="badge badge-outline ">Fashion</div>
+                      <div class="badge badge-outline">Products</div>
+                    </div>
+                  </div>
+                </div> 
+             
+             </div>
+           </section>
     </main>
 </body>
 </html>
