@@ -9,7 +9,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="tailwind.config.js">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="">
@@ -19,16 +19,18 @@
       <div class="flex items-center lg:w-4/5 lg:px-0 px-2 mx-auto justify-between">
         <!-- nav -->
         <div>
-          <h3 class="lg:text-3xl text-2xl font-medium text-black">Outreach<span class="span ">Smartly</span></h3>
+          <h3 class="lg:text-3xl text-3xl  text-black google">Outreach<span class="span ">Smartly</span></h3>
         </div>
-        <nav class="list-none text-[15px] hidden lg:flex  font-bold  gap-10 text-white">
-          <li><a href="">Home</a></li>
+        <nav class="list-none text-[15px] hidden lg:flex  font-bold  gap-8 text-white">
+          <li><a href="" class="">Home</a></li>
           <li><a href="">About</a></li>
           <li><a href="">Contact</a></li>
           <li><a href="">Login</a></li>
           <li><a href="">Sing Up</a></li>
         </nav>
-
+        <div class="lg:hidden">
+         <a href="#love"> <i class="fa-solid fa-bars text-white"></i></a>
+        </div>
       </div>
     </div>
     <!-- banner -->
@@ -45,190 +47,242 @@
       </div>
     </div>
   </header>
-  <main class="my-16 lg:w-4/5 mx-auto md:px-0 px-2">
-    <!-- our product section here -->
-     <div class="text-center mb-10">
-      <h1 class="text-[44px] leading-none  font-bold">Fresh new biscuits taste amazing</h1>
-      <p class="text-[15px]  text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, eligendi</p>
-     </div>
-    <section class="flex gap-5 flex-col-reverse md:flex-row">
-      <div class="flex-1 relative">
-        <img src="./images/banner-1.jpg" alt="">
-        <div class="absolute lg:hidden text-5xl font-bold top-0 text-[#0000fff2]">
-          <h1>JSS</h1>
-        </div>
-        <div class="grid gap-2  mt-2 grid-cols-2">
-          <div class="relative">
-            <img class="our-img" src="./images/banner-2.jpg" alt="">
-            <button
-              class="bg-[#0000fff2] px-5 py-1  text-gray-300 opacity-99 font-medium absolute top-0 right-">Love</button>
-          </div>
-          <div class="relative">
-            <img class="our-img" src="./images/biscuits (1).webp" alt="">
-            <button
-              class="bg-[#0000fff2] px-5 py-1  text-gray-300 opacity-99 font-medium absolute bottom-0">Love</button>
-          </div>
-        </div>
+  <main class="">
+    <article class="mt-16 lg:w-4/5 mx-auto md:px-0 px-2">
+      <!-- our product section here -->
+      <div class="text-center mb-10">
+        <h1 class="text-[44px] leading-none  font-bold">Fresh new biscuits taste amazing</h1>
+        <p class="text-[15px]  text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, eligendi
+        </p>
       </div>
-      <div class="flex-1 space-y-3">
-        <h1 class="text-5xl font-bold">Our best biscuit Great taste</h1>
-        <p class="text-[14px] text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo eius
-          similique commodi dolor ratione necessitatibus vitae iusto, ipsa quos eligendi atque ea cum voluptatum
-          accusamus excepturi, quis, saepe cupiditate ipsam corrupti! Ipsam illo perferendis, libero excepturi tempore
-          nemo incidunt itaque culpa nulla ipsum, aut, dicta placeat dolorem possimus est modi.</p>
-        <button class="bg-[#0000fff2] font-medium rounded-lg px-12 py-3 text-white">Shop Now</button>
-      </div>
-    </section>
-    <!-- out best product  -->
-    <section class="my-16">
-      <div class="md:text-center ">
-        <h1 class="text-4xl font-bold">Delicious biscuits are very tasty to eat. Order today.</h1>
-        <p class="text-[14px] text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, et.</p>
-      </div>
-      <!-- this is card parent div -->
-      <div class="grid gap-5 grid-cols-1  md:grid-cols-2 lg:grid-cols-3 mt-10 px-6 md:px-4">
-        <!-- card 1 -->
-        <div class="card  bg-base-100 box-shadow">
-          <figure>
-            <img class="" src="./images/biscuits (6).webp" alt="Shoes" />
-          </figure>
-          <div class="px-3 ">
-            <h2 class="card-title mt-4">
-              <div class="badge badge-success">NEW</div>
-              <p class="text-gray-500">Product</p>
-            </h2>
-            <p class="text-[14px] text-gray-500 my-2">Our products are not adulterated. <br> Undoubtedly you can take it.</p>
-          <div class="flex justify-between items-center">
-            <p class="text-[16px] text-gray-500">Price: <span class="span font-bold">$8</span> <span class="line-through span font-extrabold">$16</span> </p>
-            <div class="card-actions justify-end ">
-              <div class="badge font-semibold badge-success ">Fashion</div>
-              <div class="badge font-semibold badge-success">Products</div>
-            </div>
+      <section class="flex gap-5 flex-col-reverse md:flex-row">
+        <div class="flex-1 relative">
+          <img src="./images/banner-1.jpg" alt="">
+          <div class="absolute lg:hidden text-5xl font-bold top-0 text-[#0000fff2]">
+            <h1>JSS</h1>
           </div>
-            <div>
-              <button class="w-full font-bold py-3 mt-6 mb-2 text-gray-300 rounded-full bg-[#0000fff2]">Order Now</button>
+          <div class="grid gap-2  mt-2 grid-cols-2">
+            <div class="relative">
+              <img class="our-img" src="./images/banner-2.jpg" alt="">
+              <button
+                class="bg-[#0000fff2] px-5 py-1  text-gray-300 opacity-99 font-medium absolute top-0 right-">Love</button>
+            </div>
+            <div class="relative">
+              <img class="our-img" src="./images/biscuits (1).webp" alt="">
+              <button
+                class="bg-[#0000fff2] px-5 py-1  text-gray-300 opacity-99 font-medium absolute bottom-0">Love</button>
             </div>
           </div>
         </div>
-        <!-- card 2 -->
-         <div class="card bg-base-100 w-auto mx-auto  box-shadow">
-          <figure>
-            <img class="" src="./images/biscuits (3).webp" alt="Shoes" />
-          </figure>
-          <div class="px-3 ">
-            <h2 class="card-title mt-4">
-              <div class="badge badge-success">NEW</div>
-              <p class="text-gray-500">Product</p>
-            </h2>
-            <p class="text-[14px] text-gray-500 my-2">Our products are not adulterated. <br> Undoubtedly you can take it.</p>
-          <div class="flex justify-between items-center">
-            <p class="text-[16px] text-gray-500">Price: <span class="span font-bold">$8</span> <span class="line-through span font-extrabold">$16</span> </p>
-            <div class="card-actions justify-end ">
-              <div class="badge font-semibold badge-success ">Fashion</div>
-              <div class="badge font-semibold badge-success">Products</div>
+        <div class="flex-1 space-y-3">
+          <h1 class="text-5xl font-bold">Our best biscuit Great taste</h1>
+          <p class="text-[14px] text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo eius
+            similique commodi dolor ratione necessitatibus vitae iusto, ipsa quos eligendi atque ea cum voluptatum
+            accusamus excepturi, quis, saepe cupiditate ipsam corrupti! Ipsam illo perferendis, libero excepturi tempore
+            nemo incidunt itaque culpa nulla ipsum, aut, dicta placeat dolorem possimus est modi.</p>
+          <button class="bg-[#0000fff2] font-medium rounded-lg px-12 py-3 text-white">Shop Now</button>
+        </div>
+      </section>
+      <!-- out best product  -->
+      <section class="mt-16">
+        <div class="md:text-center ">
+          <h1 class="text-4xl font-bold">Delicious biscuits are very tasty to eat. Order today.</h1>
+          <p class="text-[14px] text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, et.</p>
+        </div>
+        <!-- this is card parent div -->
+        <div class="grid gap-5 grid-cols-1  md:grid-cols-2 lg:grid-cols-3 mt-10 px-6 md:px-4 lg:px-0">
+          <!-- card 1 -->
+          <div class="card  bg-base-100 box-shadow">
+            <figure>
+              <img class="" src="./images/biscuits (6).webp" alt="Shoes" />
+            </figure>
+            <div class="px-3 ">
+              <h2 class="card-title mt-4">
+                <div class="badge badge-success">NEW</div>
+                <p class="text-gray-500 google">Product</p>
+              </h2>
+              <p class="text-[14px] text-gray-500 my-2">Our products are not adulterated. <br> Undoubtedly you can take
+                it.</p>
+              <div class="flex justify-between items-center">
+                <p class="text-[16px] text-gray-500">Price: <span class="span font-bold">$8</span> <span
+                    class="line-through span font-extrabold">$16</span> </p>
+                <div class="card-actions justify-end ">
+                  <div class="badge font-semibold badge-success ">Fashion</div>
+                  <div class="badge font-semibold badge-success">Products</div>
+                </div>
+              </div>
+              <div>
+                <button class="w-full font-bold py-3 mt-6 mb-2 text-gray-300 rounded-full bg-[#0000fff2]">Order
+                  Now</button>
+              </div>
             </div>
           </div>
-            <div>
-              <button class="w-full font-bold py-3 mt-6 mb-2 text-gray-300 rounded-full bg-[#0000fff2]">Order Now</button>
+          <!-- card 2 -->
+          <div class="card bg-base-100 w-auto mx-auto  box-shadow">
+            <figure>
+              <img class="" src="./new-img/b-9.avif" alt="Shoes" />
+            </figure>
+            <div class="px-3 ">
+              <h2 class="card-title mt-4">
+                <div class="badge badge-success">NEW</div>
+                <p class="text-gray-500 google">Product</p>
+              </h2>
+              <p class="text-[14px] text-gray-500 my-2">Our products are not adulterated. <br> Undoubtedly you can take
+                it.</p>
+              <div class="flex justify-between items-center">
+                <p class="text-[16px] text-gray-500">Price: <span class="span font-bold">$8</span> <span
+                    class="line-through span font-extrabold">$16</span> </p>
+                <div class="card-actions justify-end ">
+                  <div class="badge font-semibold badge-success ">Fashion</div>
+                  <div class="badge font-semibold badge-success">Products</div>
+                </div>
+              </div>
+              <div>
+                <button class="w-full font-bold py-3 mt-6 mb-2 text-gray-300 rounded-full bg-[#0000fff2]">Order
+                  Now</button>
+              </div>
             </div>
           </div>
-        </div> 
-        <!-- card 3 -->
-         <div class="card bg-base-100 w-auto mx-auto box-shadow">
-          <figure>
-            <img class="" src="./images/biscuits (7).webp" alt="Shoes" />
-          </figure>
-          <div class="px-3 ">
-            <h2 class="card-title mt-4">
-              <div class="badge badge-success">NEW</div>
-              <p class="text-gray-500">Product</p>
-            </h2>
-            <p class="text-[14px] text-gray-500 my-2">Our products are not adulterated. <br> Undoubtedly you can take it.</p>
-          <div class="flex justify-between items-center">
-            <p class="text-[16px] text-gray-500">Price: <span class="span font-bold">$8</span> <span class="line-through span font-extrabold">$16</span> </p>
-            <div class="card-actions justify-end ">
-              <div class="badge font-semibold badge-success ">Fashion</div>
-              <div class="badge font-semibold badge-success">Products</div>
+          <!-- card 3 -->
+          <div class="card bg-base-100 w-auto mx-auto box-shadow">
+            <figure>
+              <img class="" src="./images/biscuits (7).webp" alt="Shoes" />
+            </figure>
+            <div class="px-3 ">
+              <h2 class="card-title mt-4">
+                <div class="badge badge-success">NEW</div>
+                <p class="text-gray-500 google">Product</p>
+              </h2>
+              <p class="text-[14px] text-gray-500 my-2">Our products are not adulterated. <br> Undoubtedly you can take
+                it.</p>
+              <div class="flex justify-between items-center">
+                <p class="text-[16px] text-gray-500">Price: <span class="span font-bold">$8</span> <span
+                    class="line-through span font-extrabold">$16</span> </p>
+                <div class="card-actions justify-end ">
+                  <div class="badge font-semibold badge-success ">Fashion</div>
+                  <div class="badge font-semibold badge-success">Products</div>
+                </div>
+              </div>
+              <div>
+                <button class="w-full font-bold py-3 mt-6 mb-2 text-gray-300 rounded-full bg-[#0000fff2]">Order
+                  Now</button>
+              </div>
             </div>
           </div>
-            <div>
-              <button class="w-full font-bold py-3 mt-6 mb-2 text-gray-300 rounded-full bg-[#0000fff2]">Order Now</button>
+
+          <!-- card 4 -->
+          <div class="card bg-base-100 w-auto mx-auto box-shadow">
+            <figure>
+              <img class="" src="./new-img/b-5.avif" alt="Shoes" />
+            </figure>
+            <div class="px-3 ">
+              <h2 class="card-title mt-4">
+                <div class="badge badge-success">NEW</div>
+                <p class="text-gray-500 google ">Product</p>
+              </h2>
+              <p class="text-[14px] text-gray-500 my-2">Our products are not adulterated. <br> Undoubtedly you can take
+                it.</p>
+              <div class="flex justify-between items-center">
+                <p class="text-[16px] text-gray-500">Price: <span class="span font-bold">$8</span> <span
+                    class="line-through span font-extrabold">$16</span> </p>
+                <div class="card-actions justify-end ">
+                  <div class="badge font-semibold badge-success ">Fashion</div>
+                  <div class="badge font-semibold badge-success">Products</div>
+                </div>
+              </div>
+              <div>
+                <button class="w-full font-bold py-3 mt-6 mb-2 text-gray-300 rounded-full bg-[#0000fff2]">Order
+                  Now</button>
+              </div>
             </div>
           </div>
-        </div> 
-     
-        <!-- card 4 -->
-         <div class="card bg-base-100 w-auto mx-auto box-shadow">
-          <figure>
-            <img class="" src="./images/biscuits (1).webp" alt="Shoes" />
-          </figure>
-          <div class="px-3 ">
-            <h2 class="card-title mt-4">
-              <div class="badge badge-success">NEW</div>
-              <p class="text-gray-500">Product</p>
-            </h2>
-            <p class="text-[14px] text-gray-500 my-2">Our products are not adulterated. <br> Undoubtedly you can take it.</p>
-          <div class="flex justify-between items-center">
-            <p class="text-[16px] text-gray-500">Price: <span class="span font-bold">$8</span> <span class="line-through span font-extrabold">$16</span> </p>
-            <div class="card-actions justify-end ">
-              <div class="badge font-semibold badge-success ">Fashion</div>
-              <div class="badge font-semibold badge-success">Products</div>
+          <!-- card 5 -->
+          <div class="card bg-base-100 mx-auto box-shadow">
+            <figure>
+              <img class="" src="./images/biscuits (2).webp" alt="Shoes" />
+            </figure>
+            <div class="px-3 ">
+              <h2 class="card-title mt-4">
+                <div class="badge badge-success">NEW</div>
+                <p class="text-gray-500 google">Product</p>
+              </h2>
+              <p class="text-[14px] text-gray-500 my-2">Our products are not adulterated. <br> Undoubtedly you can take
+                it.</p>
+              <div class="flex justify-between items-center">
+                <p class="text-[16px] text-gray-500">Price: <span class="span font-bold">$8</span> <span
+                    class="line-through span font-extrabold">$16</span> </p>
+                <div class="card-actions justify-end ">
+                  <div class="badge font-semibold badge-success ">Fashion</div>
+                  <div class="badge font-semibold badge-success">Products</div>
+                </div>
+              </div>
+              <div>
+                <button class="w-full font-bold py-3 mt-6 mb-2 text-gray-300 rounded-full bg-[#0000fff2]">Order
+                  Now</button>
+              </div>
             </div>
           </div>
-            <div>
-              <button class="w-full font-bold py-3 mt-6 mb-2 text-gray-300 rounded-full bg-[#0000fff2]">Order Now</button>
+          <!-- card 6 -->
+          <div class="card bg-base-100 blue w-auto mx-auto box-shadow">
+            <figure>
+              <img class="" src="./new-img/b-4.avif" alt="Shoes" />
+            </figure>
+            <div class="px-3 ">
+              <h2 class="card-title mt-4">
+                <div class="badge badge-success">NEW</div>
+                <p class="text-gray-500 google">Product</p>
+              </h2>
+              <p class="text-[14px] text-gray-500 my-2">Our products are not adulterated. <br> Undoubtedly you can take
+                it.</p>
+              <div class="flex justify-between items-center">
+                <p class="text-[16px] text-gray-500">Price: <span class="span font-bold">$8</span> <span
+                    class="line-through span font-extrabold">$16</span> </p>
+                <div class="card-actions justify-end ">
+                  <div class="badge font-semibold badge-success ">Fashion</div>
+                  <div class="badge font-semibold badge-success">Products</div>
+                </div>
+              </div>
+              <div>
+                <button class="w-full font-bold py-3 mt-6 mb-2 text-gray-300 rounded-full bg-[#0000fff2]">Order
+                  Now</button>
+              </div>
             </div>
           </div>
         </div>
-        <!-- card 5 -->
-      <div class="card bg-base-100 mx-auto box-shadow">
-          <figure>
-            <img class="" src="./images/biscuits (2).webp" alt="Shoes" />
-          </figure>
-          <div class="px-3 ">
-            <h2 class="card-title mt-4">
-              <div class="badge badge-success">NEW</div>
-              <p class="text-gray-500">Product</p>
-            </h2>
-            <p class="text-[14px] text-gray-500 my-2">Our products are not adulterated. <br> Undoubtedly you can take it.</p>
-          <div class="flex justify-between items-center">
-            <p class="text-[16px] text-gray-500">Price: <span class="span font-bold">$8</span> <span class="line-through span font-extrabold">$16</span> </p>
-            <div class="card-actions justify-end ">
-              <div class="badge font-semibold badge-success ">Fashion</div>
-              <div class="badge font-semibold badge-success">Products</div>
-            </div>
-          </div>
-            <div>
-              <button class="w-full font-bold py-3 mt-6 mb-2 text-gray-300 rounded-full bg-[#0000fff2]">Order Now</button>
-            </div>
-          </div>
-        </div> 
-        <!-- card 6 -->
-        <div class="card bg-base-100 blue w-auto mx-auto box-shadow">
-          <figure>
-            <img class="" src="./images/biscuits (6).webp" alt="Shoes" />
-          </figure>
-          <div class="px-3 ">
-            <h2 class="card-title mt-4">
-              <div class="badge badge-success">NEW</div>
-              <p class="text-gray-500">Product</p>
-            </h2>
-            <p class="text-[14px] text-gray-500 my-2">Our products are not adulterated. <br> Undoubtedly you can take it.</p>
-          <div class="flex justify-between items-center">
-            <p class="text-[16px] text-gray-500">Price: <span class="span font-bold">$8</span> <span class="line-through span font-extrabold">$16</span> </p>
-            <div class="card-actions justify-end ">
-              <div class="badge font-semibold badge-success ">Fashion</div>
-              <div class="badge font-semibold badge-success">Products</div>
-            </div>
-          </div>
-            <div>
-              <button class="w-full font-bold py-3 mt-6 mb-2 text-gray-300 rounded-full bg-[#0000fff2]">Order Now</button>
-            </div>
-          </div>
-        </div>
+      </section>
+      <!-- background image and blend mode -->
+       <section>
+        <div class="biscut-image"></div>
+        <div></div>
+       </section>
+    </article>
+    <!-- full section  -->
+     <section id="love" class="my-10 lg:hidden ">
+      <div  class="bg py-10">
+        <h1 class="text-white google font-bold lg:hidden text-4xl text-center">I love you</h1>
       </div>
-    </section>
+     </section>
+     <!-- subscribe section -->
+      <section>
+        <div class="bg-img-container">
+          <div class=" w-full md:w-auto flex gap-2 px-2">
+            <input  class="md:w-[400px] w-3/4  bg-blue-800 bg-opacity-80 outline-none px-5 text-gray-300 rounded-md h-[40px]" type="email" name="" id="" placeholder="Enter Your Email">
+            <button class="bg text-gray-300 font-medium h-[40px] px-6 rounded-md md:ml-2 ">Subscribe</button>
+          </div>
+        </div>
+      </section>
+      <!-- category section -->
+       <section class="mt-16 lg:w-4/5 mx-auto md:px-0 px-2">
+        <div class="biscuit-category">
+          <div class="category-item"></div>
+        </div>
+       </section>
   </main>
+  <footer>
+    <div class="mt-16 lg:w-4/5 mx-auto md:px-0 px-2">
+     
+    </div>
+  </footer>
 </body>
 
 </html>
