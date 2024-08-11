@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
 
 body{
    
     font-family: "Radio Canada Big", sans-serif;
 }
-.nav{
-    
+.price-font{
+    font-family: "Condiment", cursive;
+}
+.discount-font{
+    font-family: "Grey Qo", cursive;
 }
 .google{
     font-family: "Fleur De Leah", cursive;
@@ -46,9 +49,59 @@ body{
     align-items: center;
 }
 
-.biscuit-category{
-    
+
+.category-item1{
+    background-image: url(./new-img/blue-cover2.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 250px;
 }
-.category-item{
-    
+.category-item2{
+    background-image: url(./new-img/cover-2.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 250px;
+}
+.category-item2{
+    background-image: url(./new-img/b-blue.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 250px;
+}
+.category-item3{
+    background-image: url(./new-img/cover-2.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 250px;
+}
+.category-item4{
+    background-image: url(./new-img/cover-4.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 250px;
+}
+.category-item5{
+    background-image: url(./new-img/b-13.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 250px;
+}
+.category-item6{
+    background-image: url(./new-img/b-2.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 250px;
 }
